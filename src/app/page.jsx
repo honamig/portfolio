@@ -7,7 +7,7 @@ import micro from "../components/ArticleWork/icons/microsoft.png";
 import spotify from "../components/ArticleWork/icons/SPOTIFY.png";
 import SignupWidget from "@/components/WidgetSignup/SignupWidget";
 import ProfileHeader from "@/components/ProfileHeader/ProfileHeader";
-import profileIcon from "/workspaces/portfolio/src/components/ProfileHeader/ProfileIcon/profile.JPG";
+import profileIcon from "@/components/ProfileHeader/ProfileIcon/profile.JPG";
 import SkillsWidget from "@/components/SkillsWidgets/SkillsWidgets";
 import htmlIcon from "../components/SkillsWidgets/icons/html.png";
 import cssIcon from "../components/SkillsWidgets/icons/css3.png";
