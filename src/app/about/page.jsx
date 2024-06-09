@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 import AboutCard from "@/components/ProjectComponent/AboutCard";
 import Image from "next/image";
-import profileIcon from "/workspaces/cs220-portfolio-yellow/src/components/ProfileHeader/ProfileIcon/profile.JPG";
+import profileIcon from "@/components/ProfileHeader/ProfileIcon/profile.JPG"; 
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
@@ -35,7 +35,7 @@ export default function About() {
           <AboutCard />
         </div>
         <div className="profile-section">
-          <Image src={profileIcon} alt="profile picture" className="profile-icon" />
+          <Image src={profileIcon} alt="profile picture" className="profile-icon" width={500} height={500}/>
           <div className="social-icons">
             <a href="https://github.com/honamig" target="_blank" rel="noopener noreferrer" className="social-link">
               <FaGithub />
