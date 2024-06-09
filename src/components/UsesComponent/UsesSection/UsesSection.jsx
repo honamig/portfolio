@@ -1,6 +1,6 @@
 import "./UsesSection.css";
 import PropTypes from "prop-types";
-import UsesCard from "../UsesCard/UsesSection/UsesCard";
+import UsesCard from "../UsesCard/UsesCard";
 
 const UsesSection = ({ items }) => {
   return (

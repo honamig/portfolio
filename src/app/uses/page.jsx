@@ -1,5 +1,5 @@
 import UsesHeader from "@/components/UsesHeader/UsesHeader";
-import UsesSection from "@/components/UsesComponent/UseSection/UsesSection";
+import UsesSection from "@/components/UsesComponent/UsesSection/UsesSection";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 export const metadata = {
