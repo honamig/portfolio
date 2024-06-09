@@ -1,0 +1,19 @@
+.uses-card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    width: 100%;
+    max-width: 420px;
+  }
+  
+  .uses-card h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .uses-card p {
+    margin: 0;
+    color: #555555;
+  }
+  

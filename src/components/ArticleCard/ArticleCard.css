@@ -1,0 +1,58 @@
+.article-card {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 32px;
+    border: 1px solid #e0e0e0;
+    border-color: #e0e0e0;
+    border-radius: 6px;
+    width: 100%;
+    min-width: 200px;
+    max-width: 700px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .article-card .article-card-header time {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #a1a1aa;
+    border-left: 4px solid #e4e4e7;
+    padding-left: 8px;
+  }
+  
+  .article-card .article-card-header h2 {
+    font-size: 24px;
+    text-transform: capitalize;
+    margin: 16px 0px;
+    font-weight: bold;
+  }
+  
+  .article-card p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    margin: 0px 0px 16px 0px;
+  }
+  
+  .article-card a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .article-card a:hover {
+    text-decoration: underline;
+  }
+  
+  .articles {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    row-gap: 32px;
+    margin-left: auto;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  

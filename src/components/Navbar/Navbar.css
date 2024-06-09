@@ -1,0 +1,48 @@
+.navbar {
+    display: inline-block;
+    background-color: #f8fafc;
+    border-radius: 48px;
+    border-color: #d4d4d8;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+  }
+  .dark-mode .navbar {
+    background-color: #4f4c4c;
+  }
+  .navbar ul {
+    display: flex;
+    column-gap: 24px;
+    padding: 0 24px;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+  }
+  
+  .link {
+    color: #27222a;
+  }
+  .dark-mode .link {
+    color: #fff;
+  }
+  .link:hover {
+    text-decoration: underline;
+    text-decoration-color: #38bdf8;
+  }
+  
+  .link:active {
+    text-decoration: underline;
+    text-decoration: none;
+  }
+  .nav-element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .swicher-style {
+    align-self: flex-start;
+    margin-right: 30px;
+  }
+  

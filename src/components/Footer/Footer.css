@@ -1,0 +1,49 @@
+.navbar-footer {
+    display: flex;
+  
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .navbar-ul-footer {
+    display: flex;
+    column-gap: 24px;
+    padding: 0 24px;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+  }
+  
+  .link-footer {
+    color: #27222a;
+  }
+  .dark-mode .link-footer {
+    color: #fff;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+    text-decoration-color: #38bdf8;
+  }
+  
+  .link:active {
+    text-decoration: underline;
+    text-decoration: none;
+  }
+  .nav-element-footer {
+    display: flex;
+    justify-content: center;
+  
+    border: none;
+  
+    margin-right: auto;
+    width: 100%;
+  }
+  .dark-mode .nav-element-footer {
+    background-color: #4f4c4c;
+  }
+  .footer-p {
+    color: gainsboro;
+    margin-left: auto;
+  }
+  

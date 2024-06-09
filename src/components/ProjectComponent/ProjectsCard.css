@@ -1,0 +1,106 @@
+.dar-bell {
+    background-color: #f43f5e;
+    border-radius: 90%;
+    color: white;
+    width: 40px;
+    margin: 8px;
+  }
+  
+  .icon-darbell {
+    width: 40px;
+  }
+  
+  .link-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .each-card {
+    width: 400px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .about-each-card {
+    padding-left: 130px;
+  }
+  
+  .link-show {
+    display: flex;
+    width: fit-content;
+  }
+  
+  .link-show p {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .each-card-p {
+    color: #666;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .each-card h1 {
+    font-size: 1.5rem;
+  }
+  
+  .cardAll {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    max-width: 1300px;
+  }
+  
+  .projects-layout {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon-back {
+    padding: 0.25px;
+    background-color: white;
+    border-radius: 90%;
+    width: fit-content;
+    border: 0.5px solid #666;
+    margin: 5px;
+  }
+  
+  .aboutCards {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-icon {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .about-title {
+    width: 600px;
+    display: flex;
+    margin: 20px;
+  }
+  .profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .social-link {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    text-decoration: none;
+  }
+  
+  .social-link span {
+    margin-left: 5px;
+  }
+  

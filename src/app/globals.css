@@ -1,33 +1,79 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.profile-header-container {
+  flex-basis: calc(70% - 10px); 
+  margin-right: auto; 
+  margin-left: auto;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.mainCard {
+  display: flex;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .mainCard {
+    display: inline;
+    margin: auto;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.rightSidebar {
+  padding: 12px;
+  margin-right: auto;
+}
+.footerContainer {
+  position: relative; 
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.footerBar {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: none;
+  border-top: 1px solid gray;
+  padding: 20px;
+  display: flex;
+  justify-content: left;
+}
+.rightSidebar .skills-widget {
+  margin-top: 20px;
+}
+
+
+.rightSidebar .article-work {
+  margin-bottom: 20px;
+}
+
+.dark-mode .profile-header .home-head-title {
+  color: #fff;
+}
+
+.dark-mode .home-description {
+  color: #fff;
+}
+
+.dark-mode .card-content {
+  color: #fff;
+}
+
+.dark-mode .signup-head {
+  color: #fff;
+}
+.dark-mode .card-content {
+  color: #fff;
+}
+
+.dark-mode .signup-contentP {
+  color: #fff;
+}
+.dark-mode .work-h2 {
+  color: #fff;
+}
+
+.dark-mode .work-p {
+  color: #fff;
 }
