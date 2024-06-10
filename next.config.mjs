@@ -18,7 +18,7 @@ const nextConfigProd = {
 
 /** @type {import('next').NextConfig} */
 const nextConfigDev = {
-  output: 'export',
+  //output: 'export',
 };
 
 const nextConfig = env === 'development' ? nextConfigDev : nextConfigProd;
