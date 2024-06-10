@@ -1,4 +1,4 @@
-// get env variable
+// get env variable//
 import dotenv from 'dotenv';
 
 dotenv.config();
@@ -16,7 +16,9 @@ const nextConfigProd = {
 };
 
 /** @type {import('next').NextConfig} */
-const nextConfigDev = {};
+const nextConfigDev = {
+  output: 'export',
+};
 
 const nextConfig = env === 'development' ? nextConfigDev : nextConfigProd;
 
