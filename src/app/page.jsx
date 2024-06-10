@@ -68,7 +68,6 @@ export default function Home() {
           linkedinUrl="https://www.linkedin.com/in/honami-gonda-741a38258"
           githubUrl="https://github.com/honamig"
           twitterUrl="https://x.com"
-          src={profileIcon}
         />
       </div>
       <div className="footerContainer">

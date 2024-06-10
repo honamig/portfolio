@@ -6,11 +6,11 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
-const ProfileHeader = ({  name, bio, linkedinUrl, githubUrl, twitterUrl, src  }) => {
+const ProfileHeader = ({  name, bio, linkedinUrl, githubUrl, twitterUrl  }) => {
   return (
     <div className="profile-header">
-       <div className="profile-icon">
-      <Image src={src} alt="Profile Icon" width={200} height={200} />
+    <div className="profile-icon">
+      <Image src="/profile.JPG" alt="Profile Icon" width={200} height={200} />
     </div>
       <div className="profile-details">
         <h1 className="home-head-title">{name}</h1>
