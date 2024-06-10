@@ -12,6 +12,7 @@ import SkillsWidget from "../components/SkillsWidgets/SkillsWidgets";
 import htmlIcon from "../components/SkillsWidgets/icons/html.svg";
 import cssIcon from "../components/SkillsWidgets/icons/css.svg";
 import javascriptIcon from "../components/SkillsWidgets/icons/javaScript.svg";
+import Image from 'next/image';
 
 
 const articles = [
@@ -67,7 +68,7 @@ export default function Home() {
           linkedinUrl="https://www.linkedin.com/in/honami-gonda-741a38258"
           githubUrl="https://github.com/honamig"
           twitterUrl="https://x.com"
-          imageUrl={profileIcon}
+          src={profileIcon}
         />
       </div>
       <div className="footerContainer">
