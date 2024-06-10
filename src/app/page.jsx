@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar/Navbar";
 import ArticleCard from "../components/ArticleCard/ArticleCard";
 import Footer from "../components/Footer/Footer";
 import ArticleWork from "../components/ArticleWork/ArticleWork";
-import slack from "../components/ArticleWork/icons/slack.svg";
+import slack from "@/components/ArticleWork/icons/slack.svg";
 import micro from "../components/ArticleWork/icons/microsoft.svg";
 import spotify from "../components/ArticleWork/icons/spotify.svg";
 import SignupWidget from "../components/WidgetSignup/SignupWidget";
