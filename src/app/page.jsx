@@ -13,6 +13,7 @@ import htmlIcon from "../components/SkillsWidgets/icons/html.svg";
 import cssIcon from "../components/SkillsWidgets/icons/css.svg";
 import javascriptIcon from "../components/SkillsWidgets/icons/javaScript.svg";
 
+
 const articles = [
   {
     date: "December 25, 2023",
