@@ -9,9 +9,9 @@ const env = process.env.NODE_ENV || 'development';
 const nextConfigProd = {
   output: 'export',
   basePath: '/portfolio',
+  assetPrefix: '/portfolio/',
   images: {
-    loader: 'custom',
-    loaderFile: './src/lib/image.loader.js',
+    unoptimized: true,
   },
 };
 
